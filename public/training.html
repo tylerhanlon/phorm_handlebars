@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="signup-banner">
+        <img id="logo" src="images/Hanlon_Logo-2.png" alt="phormLogo">
+    </div>
+        <!---Navigation-->
+    <div class="nav">
+        <ul class="navBar">
+            <li class="navBarElement"><a href="index.html">Home</a></li>
+            <li class="navBarElement"><a href="training.html">Training Breakdown</a></li>
+            <li class="navBarElement"><a href="groups.html">Small Groups</a></li>
+            <li class="navBarElement"><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </div>
+    <!---Body of the sign up form-->
+    <div class="trainer-body">
+        <h1 id="trainers-header">Meet our trainers!</h1>
+        <button id="prev-btn">Prev</button>
+        <button id="next-btn">Next</button>
+        <div class="view-port">
+        <div class="trainers-row">
+                <img class="trainer-pic" src="images/tai.png" alt="taipicture">
+                <img class="trainer-pic" src="images/monica.png" alt="monicapicture">
+                <img class="trainer-pic" src="images/amanda.png" alt="amandapicture">
+                <img class="trainer-pic" src="images/peter.png" alt="peterpicture">   
+        </div>
+    </div>
+                <div id="callNow">
+           
+        </div>
+    <div class="trainer-summary">
+        <h2 id="trainer-name">Coach T'ai</h2>
+        <p id="trainer-quote">"WE ALL WANT TO BE GOOD. WE ALWAYS AIM FOR BETTER. BUT REMEMBER, THERE IS NO BEST WITHOUT THE EFFORT."</p>
+        <!---How to change the content here depending on the current trainer shown? (Each will have their own quote)-->
+    </div>
+
+    </div>
+
+        <!---Footer with contact information-->
+    <div class="footer">
+        <p class="footer-paragraph">Website created by Tyler Hanlon Spring 2023</p>
+        <p class="footer-paragraph">Email: <a href="mailto:tyler_hanlon@uri.edu">tyler_hanlon@uri.edu</a></p>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="js/styling-query.js"></script>
+    <script src="js/trainer_summary_html.js"></script>
+    <script src="js/trainer_header_xml.js"></script>
+    <script src="js/trainer_hours_json.js"></script>
+    <script src="js/callNow_query.js"></script>
+
+</body>
+</html>

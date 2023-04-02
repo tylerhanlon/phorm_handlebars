@@ -1,0 +1,399 @@
+.banner {
+  background-image: url('../images/Phorm_Photo_6.jpg');
+  background-size: 100vw 70vh;
+  height: 70vh;
+  text-align: justify;
+  display: block;
+  overflow: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+#header-text {
+  text-align: center;
+  font-size: 6vmin;
+  color: #fff;
+  margin-top: 35vh;
+}
+
+.head-text {
+  text-align: center;
+  min-height: auto;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vmin;
+}
+
+.navBar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #273444;
+  text-align: center;
+}
+
+.navBarElement {
+    border-right: 1px solid #bbb;
+    display: inline;
+    font-size: x-large;
+}
+
+.trainer-body {
+  background-color: #f7caa6;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2vmin;
+}
+
+.trainers-row{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: fit-content;
+  margin: 10px;
+}
+
+.next {
+  display: inline;
+}
+
+.trainer-summary{
+  text-align: center;
+  margin: 0;
+  background-color: #273444;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 30vh;
+}
+
+.view-port{
+  background-color: #f7caa6;
+  width: 19vw;
+  height: 27vh;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+.trainer-pic {
+  width: 19vw;
+  height: 27vh;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+
+#logo {
+  width: 20vw;
+  height: 10vh;
+  display: block;
+  margin: 0 auto;
+}
+
+.navBarElement:hover {
+  background-color: #555454;
+}
+
+li a:visited {
+  text-decoration: none;
+  color:#fff;
+}
+
+li a:active { 
+  text-decoration: none; 
+  color: #f7caa6;
+ }
+
+ li a:link {
+     padding-right: 5px;
+     text-decoration: none;
+     color: #fff;
+     margin: 0;
+ }
+
+ li a.current {
+  color: #F7CAA6;
+ }
+
+ .nav {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     display: block;
+     margin: auto;
+ }
+
+ body {
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+ }
+
+ .content-image-left {
+  width: 50vw;
+  height: 50vh;
+  padding: 0;
+  margin: 0;
+  float: left;
+ }
+
+ #content-image-right {
+  width: 50vw;
+  height: 50vh;
+  padding: 0;
+  margin: 0;
+  float: right;
+ }
+
+ #content-black {
+   background-color: #273444;
+ }
+
+ .content-paragraph-black {
+  margin: 0;
+  padding: 2vh;
+  font-size: 7vmin;
+  text-align: center;
+  color: #273444;
+  font-family: 'ZCOOL XiaoWei', sans-serif;
+ }
+
+ #signup-header {
+  margin: 1vmin;
+  padding: 2vh;
+  font-size: 6vmin;
+  text-align: center;
+  color: #fff;
+  font-family: 'ZCOOL XiaoWei', sans-serif;
+ }
+
+ .content-paragraph-white-desc-left{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vmin;
+  text-align: left;
+  margin: 0;
+  padding: 2vh;
+  color: white;
+ }
+
+ .content-paragraph-black-desc-right{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vmin;
+  padding-top: 5vh;
+  padding-left: 5vh;
+  text-align: center;
+  color:#273444;
+  margin: 0;
+ }
+
+ .content-paragraph-white {
+  margin: 0;
+  padding: 2vh;
+  font-size: 7vmin;
+  text-align: center;
+  color: #273444;
+  font-family: 'ZCOOL XiaoWei', sans-serif;
+ }
+
+ #phorm-desc-left{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vmin;
+  text-align: left;
+ }
+
+ #phorm-header {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 1vh;
+  margin: 0;
+ }
+
+ #trainers-header{
+  font-family: 'Roboto', sans-serif;
+  color:#273444;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin: 0;
+  font-size: 5vmin;
+ }
+
+ #next-btn{
+  position: relative;
+  background-color: #273444; 
+  color: white;
+  padding: 1vh 1vw;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1vmin;
+  display: inline-block;
+  min-width: 3vw;
+  white-space:nowrap;
+ }
+
+ #prev-btn{
+  position: relative;
+  background-color: #273444; 
+  color: white;
+  padding: 1vh 1vw;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1vmin;
+  display: inline-block;
+  min-width: 3vw;
+  margin-bottom: 2px;
+  white-space:nowrap;
+ }
+ #trainer-name{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 1vh;
+  margin: 0;
+  font-size: 3vmin;
+ }
+
+ #trainer-quote{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 1vh;
+  margin: 0;
+  font-size: 2vmin;
+ }
+
+ .signup-banner {
+  background-image: url('../images/gymBanner.png');
+  background-size: 100vw 20vh;
+  height: 20vh;
+  text-align: justify;
+  display: block;
+  overflow: auto;
+ }
+
+ .header-button { 
+   margin-bottom: 1vh;
+   position: relative;
+   background-color: #273444; 
+   color: white;
+   padding: 2vh 1vw;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.1vmin;
+   display: inline-block;
+   min-width: 13vw;
+   white-space:nowrap;
+ }
+
+ .header-button:hover {
+  background-color:#fff;
+  color: #273444;
+ }
+
+ .footer{
+  height: 5vh;
+  width: 100vw;
+  background-color: #273444;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+ }
+
+ .footer-paragraph {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   color: white;
+ }
+
+ #phorm-desc-right{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vmin;
+  padding-top: 5vh;
+  padding-left: 5vh;
+  text-align: center;
+ }
+
+ .signup-button {
+  background-color: #273444; 
+  color: white;
+  margin: 5vh 5vw;
+  margin-bottom: 7vh;
+  padding: 1vh 3vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ }
+
+ .signup-button:hover {
+  background-color: #fff;
+  color: #273444;
+ }
+
+ .content {
+   margin: 0;
+   padding: 0;
+   background-color: #F7CAA6;
+   height: 50vh;
+   width: 100vw;
+   text-align: center;
+ }
+
+ .signup-body{
+  background-color:#F7CAA6;
+  height: 80vh;
+  margin: 0;
+  text-align: center;
+  
+ }
+
+ .signup-form-body{
+  color:#fff;
+  background-image: url('../images/blue-phorm-background4.png');
+  min-width: 92vw;
+  margin-top: 1vh;
+  display: inline-block;
+  min-height: 75vh;
+ }
+
+ .signup-form-input{
+  margin: 1vmin;
+  min-height: 3vh;
+  outline: none;
+ }
+
+ .signup-form-input:focus{
+  outline: auto;
+  outline-color: #F7CAA6;
+ }
+
+ .signup-form-submit {
+  margin: 1.5vmin;
+  position: relative;
+  background-color: #F7CAA6; 
+  color: #273444;
+  padding: 1vh 1vw;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1vmin;
+  display: inline-block;
+  min-width: 13vw;
+  white-space:nowrap;
+  border: none;
+ }
+
+ .signup-form-submit:hover {
+  background-color: #fff;
+  color:#273444;
+ }
+
+
+
+
+
+

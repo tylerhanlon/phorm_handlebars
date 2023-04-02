@@ -1,0 +1,8 @@
+{
+    "trainers": [
+        {"name": "T'ai", "hours": "Mondays, Wednesdays, and Thursdays"},
+        {"name": "Morgan", "hours": "Mondays and Fridays"},
+        {"name": "Amanda", "hours": "Tuesdays and Thursdays"},
+        {"name": "Peter", "hours": "Fridays and Saturdays"}
+    ]
+}
